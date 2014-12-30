@@ -25,7 +25,7 @@
             }
             else
             {
-                $row = mysqli_fetch_row($result);
+                $row = mysqli_fetch_array($result);
             
                 if ($row >= 1)
                 {
